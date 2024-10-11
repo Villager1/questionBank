@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="title">Question Bank</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body onload="loadQuestions()">
 
@@ -67,10 +66,10 @@ function loadQuestions() {
 
 function done() {
   var score = 0;
-  const form = $("form");
-  //Check answers for bank questions
+  const form = document.querySelector("form");
+  // Check answers for bank questions
   for (var j = 0; j < order.length; j++) {
-    const selectedValue = form.find(`input[name='q${j + 1}']:checked`).val();
+    const selectedValue = form.querySelector(`input[name='q${j + 1}']:checked`)?.value;
     console.log(`Selected: ${selectedValue}, Correct Answer: ${bank[order[j]].answer}`);
     if (selectedValue && Number(selectedValue) == bank[order[j]].answer) {
       score++;
@@ -79,9 +78,9 @@ function done() {
       document.getElementById(`q${j + 1}`).innerText = " Wrong! Correct Answer: Option " + bank[order[j]].answer;
     }
   }
-  //Check answers for alt bank questions
+  // Check answers for alt bank questions
   for (var j = 0; j < altOrder.length; j++) {
-    const selectedValue = form.find(`input[name='q${order.length + j + 1}']:checked`).val();
+    const selectedValue = form.querySelector(`input[name='q${order.length + j + 1}']:checked`)?.value;
     if (selectedValue && Number(selectedValue) == altBank[altOrder[j]].answer) {
       score++;
       document.getElementById(`q${order.length + j + 1}`).innerText = " Correct!";
@@ -89,7 +88,6 @@ function done() {
       document.getElementById(`q${order.length + j + 1}`).innerText = " Wrong! Correct Answer: Option " + altBank[altOrder[j]].answer;
     }
   }
-  document.getElementById("score").innerText = "Score: " + score + "/" + (order.length + altOrder.length);
 }
 </script>
 </body>
