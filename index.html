@@ -34,35 +34,22 @@ function question(q, a, b, c, d, answer) {
 <script>
 function loadQuestions() {
   //Bank Questions
-  var i = 0;
-  while(i < numBankQuestions) {
+  numBankQuestions = Math.min(numBankQuestions, bank.length);
+  while (order.length < numBankQuestions) {
     var random = Math.floor(Math.random() * bank.length);
-    var repeated = false;
-    for (var j = 0; j < order.length; j++) {
-      if (random == order[j]) {
-        repeated = true;
-        break;
-      }
-    }
-    if(!repeated) {
-      if(bank[order[random]]) order.push(random);
-      i++;
+    if (!order.includes(random)) {
+      order.push(random);
     }
   }
+
   //Alt Bank Questions
-  i = 0;
-  while(i < numAltQuestions) {
-    var random = Math.floor(Math.random() * altBank.length);
-    var repeated = false;
-    for (var j = 0; j < altOrder.length; j++) {
-      if (random == altOrder[j]) {
-        repeated = true;
-        break;
+  if (numAltQuestions > 0 && altBank.length > 0) {
+    numAltQuestions = Math.min(numAltQuestions, altBank.length)
+    while (altOrder.length < numAltQuestions) {
+      var random = Math.floor(Math.random() * altBank.length);
+      if (!altOrder.includes(random)) {
+        altOrder.push(random);
       }
-    }
-    if(!repeated) {
-      if(altBank[altOrder[random]]) altOrder.push(random);
-      i++;
     }
   }
   document.getElementById("q").innerHTML = "<form><hr/>"
