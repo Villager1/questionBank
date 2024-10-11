@@ -52,16 +52,17 @@ function loadQuestions() {
       }
     }
   }
-  document.getElementById("q").innerHTML = "<form><hr/>"
+  var questions = "<form><hr/>"
   //Bank Questions
   for(var j = 0; j < order.length; j++) {
-    document.getElementById("q").innerHTML += "<p>" + bank[order[j]].q + "<span id='q" + (j + 1) + "'></span></p><input type='radio' name='q" + (j + 1) + "' value='1'/>" + bank[order[j]].a + "<br/><input type='radio' name='q" + (j + 1) + "' value='2'/>" + bank[order[j]].b + "<br/><input type='radio' name='q" + (j + 1) + "' value='3'/>" + bank[order[j]].c + "<br/><input type='radio' name='q" + (j + 1) + "' value='4'/>" + bank[order[j]].d + "<br/><hr/>";
+    questions += "<p>" + bank[order[j]].q + "<span id='q" + (j + 1) + "'></span></p><input type='radio' name='q" + (j + 1) + "' value='1'/>" + bank[order[j]].a + "<br/><input type='radio' name='q" + (j + 1) + "' value='2'/>" + bank[order[j]].b + "<br/><input type='radio' name='q" + (j + 1) + "' value='3'/>" + bank[order[j]].c + "<br/><input type='radio' name='q" + (j + 1) + "' value='4'/>" + bank[order[j]].d + "<br/><hr/>";
   }
   //Alt Bank Questions
   for(var j = 0; j < altOrder.length; j++) {
-    document.getElementById("q").innerHTML += "<p>" + altBank[altOrder[j]].q + "<span id='q" + (order.length + j + 1) + "'></span></p><input type='radio' name='q" + (order.length + j + 1) + "' value='1'/>" + altBank[altOrder[j]].a + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='2'/>" + altBank[altOrder[j]].b + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='3'/>" + altBank[altOrder[j]].c + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='4'/>" + altBank[altOrder[j]].d + "<br/><hr/>";
+    questions += "<p>" + altBank[altOrder[j]].q + "<span id='q" + (order.length + j + 1) + "'></span></p><input type='radio' name='q" + (order.length + j + 1) + "' value='1'/>" + altBank[altOrder[j]].a + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='2'/>" + altBank[altOrder[j]].b + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='3'/>" + altBank[altOrder[j]].c + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='4'/>" + altBank[altOrder[j]].d + "<br/><hr/>";
   }
-  document.getElementById("q").innerHTML += "</form>";
+  questions += "</form>";
+  document.getElementById("q").innerHTML = questions;
 }
 
 function done() {
