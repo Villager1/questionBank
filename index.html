@@ -70,7 +70,7 @@ function done() {
   //Check answers for bank questions
   for (var j = 0; j < order.length; j++) {
     const selectedValue = form[`q${j + 1}`]?.value;
-    if (selectedValue && selectedValue == bank[order[j]].answer) {
+    if (selectedValue && parseInt(selectedValue) == bank[order[j]].answer) {
       score++;
       document.getElementById(`q${j + 1}`).innerText = " Correct!";
     } else {
@@ -80,7 +80,7 @@ function done() {
   //Check answers for alt bank questions
   for (var j = 0; j < altOrder.length; j++) {
     const selectedValue = form[`q${order.length + j + 1}`]?.value;
-    if (selectedValue && selectedValue == altBank[altOrder[j]].answer) {
+    if (selectedValue && parseInt(selectedValue) == altBank[altOrder[j]].answer) {
       score++;
       document.getElementById(`q${order.length + j + 1}`).innerText = " Correct!";
     } else {
