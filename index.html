@@ -26,14 +26,6 @@ function question(q, a, b, c, d, answer) {
   this.d = d;
   this.answer = answer; //From 1-4
 }
-function question(q, a, b, c, d, answer) {
-  this.q = q;
-  this.a = a;
-  this.b = b;
-  this.c = c;
-  this.d = d;
-  this.answer = answer; //From 1-4
-}
 </script>
 
 <!-- Load question bank -->
@@ -69,7 +61,7 @@ function loadQuestions() {
       }
     }
     if(!repeated) {
-      if(bank[altOrder[random]]) altOrder.push(random);
+      if(altBank[altOrder[random]]) altOrder.push(random);
       i++;
     }
   }
@@ -80,7 +72,7 @@ function loadQuestions() {
   }
   //Alt Bank Questions
   for(var j = 0; j < altOrder.length; j++) {
-    document.getElementById("q").innerHTML += "<p>" + bank[altOrder[j]].q + "<span id='q" + (order.length + j + 1) + "'></span></p><input type='radio' name='q" + (order.length + j + 1) + "' value='1'/>" + bank[altOrder[j]].a + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='2'/>" + bank[altOrder[j]].b + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='3'/>" + bank[altOrder[j]].c + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='4'/>" + bank[altOrder[j]].d + "<br/><hr/>";
+    document.getElementById("q").innerHTML += "<p>" + altBank[altOrder[j]].q + "<span id='q" + (order.length + j + 1) + "'></span></p><input type='radio' name='q" + (order.length + j + 1) + "' value='1'/>" + altBank[altOrder[j]].a + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='2'/>" + altBank[altOrder[j]].b + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='3'/>" + altBank[altOrder[j]].c + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='4'/>" + altBank[altOrder[j]].d + "<br/><hr/>";
   }
   document.getElementById("q").innerHTML += "</form>";
 }
@@ -101,7 +93,7 @@ function done() {
   //Check answers for alt bank questions
   for (var j = 0; j < altOrder.length; j++) {
     const selectedValue = form[`q${order.length + j + 1}`]?.value;
-    if (selectedValue && selectedValue == bank[altOrder[j]].answer) {
+    if (selectedValue && selectedValue == altBank[altOrder[j]].answer) {
       score++;
       document.getElementById(`q${order.length + j + 1}`).innerText = " Correct!";
     } else {
