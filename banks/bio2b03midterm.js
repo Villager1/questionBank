@@ -1,3 +1,6 @@
+//Title
+document.getElementById("title").innerText = "Biology 2B03 Midterm Question Bank"
+
 //Bank questions here
 //bank.push(new question("", "", "", "", "", 2));
 bank.push(new question("Which of the following is an advantage of using green fluorescent protein to monitor the localization of proteins of interest?", "It can be used to detect antibodies generated against a protein in the cell", "It increases the resolution of the specimen", "It can be used to observe dynamic processes occurring within the cell", "1 and 3", 3));
