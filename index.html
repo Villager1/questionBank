@@ -66,7 +66,7 @@ function loadQuestions() {
 
 function done() {
   var score = 0;
-  const form = document.querySelector("form");
+  const form = $("form");
   //Check answers for bank questions
   for (var j = 0; j < order.length; j++) {
     const selectedValue = form.find(`input[name='q${j + 1}']:checked`).val();
