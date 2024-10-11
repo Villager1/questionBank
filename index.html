@@ -89,6 +89,7 @@ function done() {
       document.getElementById(`q${order.length + j + 1}`).innerText = " Wrong! Correct Answer: Option " + altBank[altOrder[j]].answer;
     }
   }
+  document.getElementById("score").innerText = "Score: " + score + "/" + (order.length + altOrder.length);
 }
 </script>
 </body>
