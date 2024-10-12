@@ -14,22 +14,23 @@
 <script>
 var bank = [];
 var altBank = [];
-var numBankQuestions = 22;
+var numBankQuestions = 10;
 var numAltQuestions = 0;
 var order = [];
 var altOrder = [];
-function question(q, a, b, c, d, answer) {
+function question(q, a, b, c, d, answer, explanation) {
   this.q = q;
   this.a = a;
   this.b = b;
   this.c = c;
   this.d = d;
   this.answer = answer; //From 1-4
+  this.explanation = explanation;
 }
 </script>
 
 <!-- Load question bank -->
-<script src="banks/bio2b03midterm.js"></script>
+<script src="banks/biochem2b03midterm2.js"></script>
 
 <script>
 function loadQuestions() {
@@ -55,11 +56,11 @@ function loadQuestions() {
   var questions = "<form><hr/>"
   //Bank Questions
   for(var j = 0; j < order.length; j++) {
-    questions += "<p>" + bank[order[j]].q + "<span id='q" + (j + 1) + "'></span></p><input type='radio' name='q" + (j + 1) + "' value='1'/>" + bank[order[j]].a + "<br/><input type='radio' name='q" + (j + 1) + "' value='2'/>" + bank[order[j]].b + "<br/><input type='radio' name='q" + (j + 1) + "' value='3'/>" + bank[order[j]].c + "<br/><input type='radio' name='q" + (j + 1) + "' value='4'/>" + bank[order[j]].d + "<br/><hr/>";
+    questions += "<p>" + bank[order[j]].q + "<span id='q" + (j + 1) + "'></span></p><input type='radio' name='q" + (j + 1) + "' value='1'/>" + bank[order[j]].a + "<br/><input type='radio' name='q" + (j + 1) + "' value='2'/>" + bank[order[j]].b + "<br/><input type='radio' name='q" + (j + 1) + "' value='3'/>" + bank[order[j]].c + "<br/><input type='radio' name='q" + (j + 1) + "' value='4'/>" + bank[order[j]].d + "<br/><p id='e" + (j + 1) + "'></p><hr/>";
   }
   //Alt Bank Questions
   for(var j = 0; j < altOrder.length; j++) {
-    questions += "<p>" + altBank[altOrder[j]].q + "<span id='q" + (order.length + j + 1) + "'></span></p><input type='radio' name='q" + (order.length + j + 1) + "' value='1'/>" + altBank[altOrder[j]].a + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='2'/>" + altBank[altOrder[j]].b + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='3'/>" + altBank[altOrder[j]].c + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='4'/>" + altBank[altOrder[j]].d + "<br/><hr/>";
+    questions += "<p>" + altBank[altOrder[j]].q + "<span id='q" + (order.length + j + 1) + "'></span></p><input type='radio' name='q" + (order.length + j + 1) + "' value='1'/>" + altBank[altOrder[j]].a + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='2'/>" + altBank[altOrder[j]].b + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='3'/>" + altBank[altOrder[j]].c + "<br/><input type='radio' name='q" + (order.length + j + 1) + "' value='4'/>" + altBank[altOrder[j]].d + "<br/><p id='e" + (order.length + j + 1) + "'></p><hr/>";
   }
   questions += "</form>";
   document.getElementById("q").innerHTML = questions;
@@ -77,6 +78,7 @@ function done() {
       document.getElementById(`q${j + 1}`).innerText = " Correct!";
     } else {
       document.getElementById(`q${j + 1}`).innerText = " Wrong! Correct Answer: Option " + bank[order[j]].answer;
+      document.getElementById(`e${j + 1}`).innerText = bank[order[j]].explanation;
     }
   }
   // Check answers for alt bank questions
@@ -87,6 +89,7 @@ function done() {
       document.getElementById(`q${order.length + j + 1}`).innerText = " Correct!";
     } else {
       document.getElementById(`q${order.length + j + 1}`).innerText = " Wrong! Correct Answer: Option " + altBank[altOrder[j]].answer;
+      document.getElementById(`e${order.length + j + 1}`).innerText = altBank[altOrder[j]].explanation;
     }
   }
   document.getElementById("score").innerText = "Score: " + score + "/" + (order.length + altOrder.length);
