@@ -205,7 +205,7 @@ bank.push(new question("What are enhancers and silencers in gene regulation?", "
 bank.push(new question("What role does RNA editing play in gene expression?", "Alters amino acid sequence", "Increases stability", "Promotes translation", "Enhances splicing", 1, "RNA editing can alter the amino acid sequence of the resulting protein by modifying the RNA sequence."));
 bank.push(new question("What is the primary effect of DNA methylation on gene expression?", "Increases transcription", "Represses transcription", "No effect", "Activates translation", 2, "DNA methylation typically represses transcription by causing chromatin to condense."));
 bank.push(new question("What is the consequence of alternative splicing on protein diversity?", "Decreases diversity", "Increases diversity", "No effect", "Creates identical proteins", 2, "Alternative splicing increases protein diversity by allowing multiple protein isoforms to be produced from a single gene."));
-bank.push(new question("What is the role of chromatin in gene expression?", "Represses transcription", "Increases transcriptional regulation", "Binds to ribosomes", "Facilitates splicing", 2, "Chromatin structure plays a critical role in regulating gene expression by controlling accessibility to DNA.");
+bank.push(new question("What is the role of chromatin in gene expression?", "Represses transcription", "Increases transcriptional regulation", "Binds to ribosomes", "Facilitates splicing", 2, "Chromatin structure plays a critical role in regulating gene expression by controlling accessibility to DNA."));
 
 //Translation
 bank.push(new question("What is the role of tRNA in translation?", "Transports mRNA", "Carries amino acids to ribosomes", "Synthesizes proteins", "Binds to DNA", 2, "tRNA carries specific amino acids to the ribosome, where they are added to the growing polypeptide chain."));
@@ -418,3 +418,5 @@ bank.push(new question("What happens when mRNA localization is impaired?", "Incr
 bank.push(new question("What is the consequence of chronic hyperglycemia on cellular functions?", "Enhances protein folding", "Increases protein misfolding", "Decreases apoptosis", "Improves insulin signaling", 2, "Chronic hyperglycemia can lead to increased protein misfolding and cellular stress."));
 bank.push(new question("What happens to excess misfolded proteins in the cell?", "They are secreted", "They are degraded", "They enhance cellular function", "They are retained", 2, "Excess misfolded proteins are targeted for degradation to prevent cellular stress."));
 bank.push(new question("How does chronic ER stress affect glucose metabolism?", "Increases metabolism", "Decreases insulin sensitivity", "No effect", "Enhances energy production", 2, "Chronic ER stress can decrease insulin sensitivity, impacting glucose metabolism."));
+
+//Test 1 Questions
