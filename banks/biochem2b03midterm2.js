@@ -420,3 +420,19 @@ bank.push(new question("What happens to excess misfolded proteins in the cell?",
 bank.push(new question("How does chronic ER stress affect glucose metabolism?", "Increases metabolism", "Decreases insulin sensitivity", "No effect", "Enhances energy production", 2, "Chronic ER stress can decrease insulin sensitivity, impacting glucose metabolism."));
 
 //Test 1 Questions
+
+//Supercoils
+altBank.push(new question("If you take a relaxed circular DNA with a linking number (L) of 100 and introduce 10 negative supercoils, what will be the new linking number?", "90", "100", "110", "120", 1, "Introducing 10 negative supercoils decreases the linking number by 10, resulting in a new linking number of 100 - 10 = 90."));
+altBank.push(new question("In a relaxed circular DNA molecule, if the twist (T) is 30 and the writhe (W) is -5, what is the linking number (L)?", "25", "30", "35", "5", 1, "The linking number (L) is calculated as L = T + W, which is 30 + (-5) = 25."));
+altBank.push(new question("If a DNA molecule is negatively supercoiled and has a linking number (L) of 45, what can you infer about the twist (T) and writhe (W)?", "T is greater than 45, W is negative", "T is less than 45, W is negative", "T is equal to 45, W is zero", "T is less than 45, W is positive", 2, "In a negatively supercoiled DNA, the twist (T) is less than the linking number (L), and the writhe (W) is negative, indicating the presence of left-handed supercoils."));
+
+//Partial Hydrolysis
+altBank.push(new question("If you partially hydrolyze the RNA sequence 5'-A-U-G-C-3', how many types of nucleosides will be produced?", "2", "3", "4", "5", 2, "The sequence 5'-A-U-G-C-3' contains four nucleotides, leading to the production of four different nucleosides: adenosine, uridine, guanosine, and cytidine."));
+altBank.push(new question("After partially hydrolyzing the RNA sequence 5'-C-G-A-U-3', which of the following products will NOT be formed?", "Cytidine", "Adenosine", "Guanosine", "Uridine", 2, "The sequence 5'-C-G-A-U-3' contains cytosine, guanine, adenine, and uracil, meaning adenosine will not be formed from this sequence as it is not present."));
+altBank.push(new question("What type of product is formed when an RNA molecule undergoes partial hydrolysis?", "Only nucleotides", "Only amino acids", "Nucleotides and nucleosides", "Only nucleosides", 3, "Partial hydrolysis of RNA results in the formation of both nucleotides and nucleosides due to the breakdown of phosphodiester bonds."));
+altBank.push(new question("During partial hydrolysis of the RNA sequence 5'-U-A-C-G-3', which of the following products is specifically a dinucleotide?", "U-A", "A-C", "C-G", "All of the above", 4, "Each of the pairs U-A, A-C, and C-G can be considered as dinucleotides resulting from partial hydrolysis, as they represent two nucleotides linked by a phosphodiester bond."));
+
+//Transposons
+altBank.push(new question("Which enzyme is primarily responsible for catalyzing the movement of DNA transposons within the genome?", "Reverse transcriptase", "Transposase", "Helicase", "DNA polymerase", 2, "Transposase is the enzyme that catalyzes the movement of DNA transposons within the genome."));
+altBank.push(new question("Which of the following is NOT a type of transposon?", "DNA transposon", "Retrotransposon", "Intron", "Insertion sequence", 3, "An intron is a non-coding sequence within a gene and is not considered a type of transposon."));
+altBank.push(new question("What does a transposon primarily code for?", "RNA molecules", "Enzymes involved in its own transposition", "Proteins for cellular structure", "DNA replication factors", 2, "Transposons primarily code for enzymes involved in their own transposition, such as transposase or reverse transcriptase."));
