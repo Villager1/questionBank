@@ -87,8 +87,10 @@ function done() {
     if (selectedValue && Number(selectedValue) == altBank[altOrder[j]].answer) {
       score++;
       document.getElementById(`q${order.length + j + 1}`).innerText = " Correct!";
+      document.getElementById(`q${order.length + j + 1}`).style.color = "green";
     } else {
       document.getElementById(`q${order.length + j + 1}`).innerText = " Wrong! Correct Answer: Option " + altBank[altOrder[j]].answer;
+      document.getElementById(`q${order.length + j + 1}`).style.color = "red";
       document.getElementById(`e${order.length + j + 1}`).innerText = altBank[altOrder[j]].explanation;
     }
   }
