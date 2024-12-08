@@ -475,6 +475,229 @@ bank.push(new question("Which lipid protein is commonly associated with 'good ch
 );
 
 //Module 6
+bank.push(new question("What typically happens in a fast response in signal transduction?", 
+  "Changes in enzyme activation", 
+  "Changes in gene transcription", 
+  "Cell division", 
+  "Cell apoptosis", 1, 
+  "Fast responses in signal transduction typically involve changes in enzyme activation.")
+);
+
+bank.push(new question("What is the result of a slow response in signal transduction?", 
+  "Changes in gene transcription", 
+  "Changes in enzyme activation", 
+  "Immediate cell division", 
+  "Alteration in cell shape", 1, 
+  "Slow responses in signal transduction involve changes in gene transcription.")
+);
+
+bank.push(new question("In Dictyostelium amoeba, which receptor binds to cAMP to trigger movement?", 
+  "G-protein coupled receptor (GPCR)", 
+  "Receptor Tyrosine Kinase (RTK)", 
+  "Cytokine receptor", 
+  "Ion channel receptor", 1, 
+  "The G-protein coupled receptor (GPCR) in Dictyostelium amoeba binds to cAMP to trigger movement.")
+);
+
+bank.push(new question("What causes Dictyostelium amoeba to fail to move toward the cAMP signal?", 
+  "Mutation in the clathrin heavy chain gene", 
+  "Mutation in GPCR gene", 
+  "Lack of cAMP production", 
+  "High levels of calcium ions", 1, 
+  "A mutation in the clathrin heavy chain gene prevents the formation of vesicles and thus the movement of the GPCR, causing the amoeba to fail to move toward the cAMP signal.")
+);
+
+bank.push(new question("In human neutrophils, which signal sequence triggers movement toward bacteria?", 
+  "fMet-Leu-Phe (fMLP)", 
+  "cAMP", 
+  "Erythropoietin", 
+  "Insulin", 1, 
+  "Neutrophils move toward the fMet-Leu-Phe (fMLP) signal sequence from bacteria.")
+);
+
+bank.push(new question("What does Kd refer to in signal transduction?", 
+  "Ligand concentration where half of receptors are occupied", 
+  "Maximum physiological response", 
+  "Half-life of the ligand", 
+  "Equilibrium constant of the receptor-ligand binding", 1, 
+  "Kd is the ligand concentration at which half of the receptors are occupied.")
+);
+
+bank.push(new question("Which type of signaling involves hormones and targets distal cells?", 
+  "Endocrine signaling", 
+  "Paracrine signaling", 
+  "Cell contact signaling", 
+  "Autocrine signaling", 1, 
+  "Endocrine signaling involves hormones and targets distal (far) cells.")
+);
+
+bank.push(new question("Which type of signaling involves growth factors and targets cells near the signaling cell?", 
+  "Paracrine signaling", 
+  "Endocrine signaling", 
+  "Cell contact signaling", 
+  "Autocrine signaling", 1, 
+  "Paracrine signaling involves growth factors and targets cells close to the signaling cell.")
+);
+
+bank.push(new question("Which type of signaling involves direct contact between cells via integral membrane proteins?", 
+  "Cell contact signaling", 
+  "Endocrine signaling", 
+  "Autocrine signaling", 
+  "Paracrine signaling", 1, 
+  "Cell contact signaling involves direct cell-to-cell contact through membrane proteins.")
+);
+
+bank.push(new question("Which type of signaling involves a cell signaling to itself?", 
+  "Autocrine signaling", 
+  "Endocrine signaling", 
+  "Paracrine signaling", 
+  "Cell contact signaling", 1, 
+  "Autocrine signaling involves a cell signaling to itself.")
+);
+
+bank.push(new question("In the JAK-STAT pathway, which receptor binds the erythropoietin (Epo) cytokine?", 
+  "Epo receptor (EpoR)", 
+  "Receptor Tyrosine Kinase (RTK)", 
+  "Cytokine receptor", 
+  "G-protein coupled receptor (GPCR)", 1, 
+  "The Epo receptor (EpoR) binds the erythropoietin (Epo) cytokine in the JAK-STAT pathway.")
+);
+
+bank.push(new question("In the JAK-STAT pathway, what happens after EpoR dimerizes?", 
+  "JAK kinases undergo autophosphorylation", 
+  "Epo binds the SH2 domain", 
+  "STATs enter the nucleus", 
+  "Cell division is triggered", 1, 
+  "After EpoR dimerizes, JAK kinases undergo autophosphorylation to initiate signal transduction.")
+);
+
+bank.push(new question("Which protein in the JAK-STAT pathway binds to phosphorylated Tyr docking sites?", 
+  "SH2 domain in STAT transcription factor", 
+  "JAK kinase", 
+  "SOCS protein", 
+  "EpoR", 1, 
+  "The SH2 domain in the STAT transcription factor binds to phosphorylated Tyr docking sites in the JAK-STAT pathway.")
+);
+
+bank.push(new question("What is the function of SOCS in the JAK-STAT pathway?", 
+  "It inhibits JAK kinases by promoting degradation", 
+  "It activates transcription", 
+  "It promotes dimerization of STATs", 
+  "It prevents the release of cytokines", 1, 
+  "SOCS inhibits JAK kinases by acting as an E3 ubiquitin ligase to promote their degradation.")
+);
+
+bank.push(new question("In the Ras pathway, what type of receptor is activated by epidermal growth factor (EGF)?", 
+  "Receptor Tyrosine Kinase (RTK)", 
+  "G-protein coupled receptor (GPCR)", 
+  "Cytokine receptor", 
+  "Ion channel receptor", 1, 
+  "Epidermal growth factor (EGF) activates the Receptor Tyrosine Kinase (RTK).")
+);
+
+bank.push(new question("In the Ras pathway, what happens when GRB2 binds to phosphorylated Tyr residues?", 
+  "GRB2 recruits SOS to activate Ras", 
+  "GRB2 activates MAPK", 
+  "GRB2 phosphorylates p90", 
+  "GRB2 deactivates MAP kinase", 1, 
+  "When GRB2 binds phosphorylated Tyr residues, it recruits SOS, a guanine exchange factor (GEF), to activate Ras.")
+);
+
+bank.push(new question("Which protein activates Ras by exchanging GDP for GTP?", 
+  "SOS (guanine exchange factor)", 
+  "GRB2", 
+  "Raf", 
+  "MAPK", 1, 
+  "SOS (guanine exchange factor) activates Ras by exchanging GDP for GTP.")
+);
+
+bank.push(new question("Which protein deactivates Ras by hydrolyzing GTP to GDP?", 
+  "GAP (GTPase activating protein)", 
+  "SOS", 
+  "GRB2", 
+  "Raf", 1, 
+  "GAP (GTPase activating protein) deactivates Ras by hydrolyzing GTP to GDP.")
+);
+
+bank.push(new question("In the Ras pathway, what does MAP kinase do?", 
+  "It phosphorylates p90 and other transcription factors", 
+  "It activates Ras", 
+  "It binds to Raf", 
+  "It exchanges GDP for GTP", 1, 
+  "MAP kinase phosphorylates p90 and other transcription factors to activate gene transcription.")
+);
+
+bank.push(new question("What is the final result of the Ras pathway?", 
+  "Transcriptional activation of genes including c-fos", 
+  "Degradation of MAPK", 
+  "Activation of protein kinase A", 
+  "Inhibition of cell cycle", 1, 
+  "The final result of the Ras pathway is transcriptional activation of genes like c-fos.")
+);
+
+bank.push(new question("What is the general structure of G-protein coupled receptors (GPCRs)?", 
+  "7 transmembrane alpha-helix domains", 
+  "4 transmembrane beta-sheets", 
+  "3 transmembrane alpha-helix domains", 
+  "A single transmembrane domain", 1, 
+  "GPCRs typically have 7 transmembrane alpha-helix domains.")
+);
+
+bank.push(new question("What is the primary effector in the adrenergic stress response?", 
+  "Adenylyl cyclase", 
+  "Protein kinase A (PKA)", 
+  "GTPase", 
+  "Calcium ions", 1, 
+  "The primary effector in the adrenergic stress response is adenylyl cyclase.")
+);
+
+bank.push(new question("Which secondary messenger is involved in the adrenergic stress response?", 
+  "cAMP", 
+  "Calcium ions", 
+  "IP3", 
+  "DAG", 1, 
+  "cAMP is the secondary messenger in the adrenergic stress response.")
+);
+
+bank.push(new question("What does cAMP bind to in the adrenergic stress response?", 
+  "Regulatory subunit of Protein Kinase A (PKA)", 
+  "Adenylyl cyclase", 
+  "Protein kinase C", 
+  "Ras", 1, 
+  "cAMP binds the regulatory subunit of Protein Kinase A (PKA) in the adrenergic stress response.")
+);
+
+bank.push(new question("What is the outcome in muscle cells when cAMP activates Protein Kinase A (PKA)?", 
+  "Glycogen is metabolized into glucose-6-phosphate", 
+  "Lipids are broken down", 
+  "Protein synthesis is inhibited", 
+  "Cell division is activated", 1, 
+  "In muscle cells, PKA activation leads to the metabolism of glycogen into glucose-6-phosphate.")
+);
+
+bank.push(new question("In liver cells, what happens when cAMP activates Protein Kinase A (PKA)?", 
+  "Glycogen breakdown is stimulated, and glycogen synthesis is inhibited", 
+  "Glucose uptake is increased", 
+  "Fatty acid synthesis is activated", 
+  "Insulin production is increased", 1, 
+  "In liver cells, PKA activation stimulates glycogen breakdown and inhibits glycogen synthesis.")
+);
+
+bank.push(new question("What happens when α2-adrenergic receptors are activated?", 
+  "Adenylyl cyclase is inhibited", 
+  "Adenylyl cyclase is activated", 
+  "Glycogen breakdown is stimulated", 
+  "cAMP production increases", 1, 
+  "Activation of α2-adrenergic receptors inhibits adenylyl cyclase, decreasing cAMP production.")
+);
+
+bank.push(new question("Which receptor is involved in the adrenergic stress response and regulates glycolysis and lipolysis?", 
+  "β-adrenergic receptors", 
+  "α2-adrenergic receptors", 
+  "Insulin receptor", 
+  "Glucagon receptor", 1, 
+  "β-adrenergic receptors regulate glycolysis, lipolysis, and blood flow during the adrenergic stress response.")
+);
 
 //Lecture 7
 
@@ -1727,3 +1950,202 @@ bank.push(new question("What is the role of Cdc14 in chromosome segregation?",
 );
 
 //Module 11
+bank.push(new question("How many cells typically die per day due to apoptosis in an adult human?", 
+  "50-70 billion", 
+  "10-20 million", 
+  "1-5 billion", 
+  "100-200 million", 1, 
+  "Approximately 50-70 billion cells die per day due to apoptosis in an adult human.")
+);
+
+bank.push(new question("Which of the following is used to detect apoptosis in cells?", 
+  "TUNEL assay", 
+  "Western blotting", 
+  "PCR", 
+  "Flow cytometry", 1, 
+  "The TUNEL assay detects apoptosis by tagging DNA nicks in apoptotic cells.")
+);
+
+bank.push(new question("What happens during the execution phase of apoptosis?", 
+  "Chromatin condenses, cytoplasm aggregates, and the nuclear envelope breaks down", 
+  "Cell undergoes mitosis", 
+  "Chromatin decondenses, cytoplasm expands", 
+  "DNA is replicated", 1, 
+  "During apoptosis execution, chromatin condenses, cytoplasm condenses, and the nuclear envelope breaks down.")
+);
+
+bank.push(new question("Which of the following is a characteristic of necrosis compared to apoptosis?", 
+  "Necrosis involves cell swelling and leakage", 
+  "Necrosis is a regulated process", 
+  "Necrosis does not involve membrane blebbing", 
+  "Necrosis leads to phagocytosis of cell components", 1, 
+  "Necrosis involves cell swelling and leakage, often leading to infection.")
+);
+
+bank.push(new question("What happens to apoptotic cells after they break down into vesicles?", 
+  "They are phagocytosed by other cells", 
+  "They are reabsorbed into the tissue", 
+  "They undergo further replication", 
+  "They fuse with neighboring cells", 1, 
+  "Apoptotic cell components are phagocytosed after breaking down into vesicles.")
+);
+
+bank.push(new question("Which gene mutation in nematodes prevents the engulfment of apoptotic cells?", 
+  "Ced-1 mutation", 
+  "Ced-3 mutation", 
+  "Ced-4 mutation", 
+  "EGL-1 mutation", 1, 
+  "A Ced-1 gene mutation in nematodes prevents apoptotic cell engulfment.")
+);
+
+bank.push(new question("Which gene is necessary for the apoptotic pathway in nematodes?", 
+  "Ced-3", 
+  "Ced-1", 
+  "Ced-4", 
+  "EGL-1", 1, 
+  "The Ced-3 gene is necessary for the apoptotic pathway in nematodes.")
+);
+
+bank.push(new question("In the nematode apoptotic pathway, what does EGL-1 bind to?", 
+  "Ced-9 bound to mitochondria", 
+  "Ced-3", 
+  "Ced-1", 
+  "Caspase-9", 1, 
+  "EGL-1 binds Ced-9 bound to mitochondria to initiate apoptosis.")
+);
+
+bank.push(new question("In mammals, which protein is the homolog of EGL-1 from nematodes?", 
+  "Bad", 
+  "Bcl-2", 
+  "Bax", 
+  "Cyt C", 1, 
+  "In mammals, Bad is the homolog of EGL-1 from nematodes.")
+);
+
+bank.push(new question("What does the protein Bax do in apoptosis?", 
+  "Forms pores in the outer membrane to release Cyt C into the cytosol", 
+  "Inhibits the apoptotic pathway", 
+  "Prevents membrane blebbing", 
+  "Phagocytoses apoptotic bodies", 1, 
+  "Bax aggregates and forms pores in the outer membrane, releasing Cyt C into the cytosol.")
+);
+
+bank.push(new question("What is the function of Cyt C in the apoptotic pathway?", 
+  "Cyt C binds Apaf-1", 
+  "Cyt C inhibits Bax", 
+  "Cyt C degrades DNA", 
+  "Cyt C inhibits Caspase-9", 1, 
+  "Cyt C binds Apaf-1, which leads to the activation of Caspase-9.")
+);
+
+bank.push(new question("Which protein is homologous to Ced-4 in nematodes?", 
+  "Apaf-1", 
+  "Bad", 
+  "Bcl-2", 
+  "Caspase-9", 1, 
+  "Apaf-1 is the mammalian homolog of Ced-4 in nematodes.")
+);
+
+bank.push(new question("What is the role of Caspase-9 in the apoptotic pathway?", 
+  "Caspase-9 forms a complex with Apaf-1 and Cyt C to activate caspases", 
+  "Caspase-9 degrades Bcl-2", 
+  "Caspase-9 prevents Bax aggregation", 
+  "Caspase-9 is involved in DNA replication", 1, 
+  "Caspase-9, in complex with Apaf-1 and Cyt C, activates downstream caspases to execute apoptosis.")
+);
+
+bank.push(new question("What is the function of Bcl-2 in apoptosis?", 
+  "Bcl-2 binds Bad-Bcl2 and inhibits apoptosis", 
+  "Bcl-2 activates Caspase-9", 
+  "Bcl-2 releases Cyt C from mitochondria", 
+  "Bcl-2 degrades DNA", 1, 
+  "Bcl-2, when bound to Bad, inhibits apoptosis and prevents cell death.")
+);
+
+bank.push(new question("What occurs when trophic factors phosphorylate Bad?", 
+  "Phosphorylated Bad is released from Bcl-2, preventing apoptosis", 
+  "Phosphorylated Bad triggers Bax aggregation", 
+  "Phosphorylated Bad activates Caspase-3", 
+  "Phosphorylated Bad activates DNA repair", 1, 
+  "Phosphorylation of Bad by trophic factors prevents apoptosis by releasing it from Bcl-2.")
+);
+
+bank.push(new question("What happens when trophic factors are removed?", 
+  "Apoptosis can occur", 
+  "Cell division is halted", 
+  "DNA replication is prevented", 
+  "Gene expression is enhanced", 1, 
+  "When trophic factors are removed, apoptosis can occur due to the release of pro-apoptotic proteins like Bad.")
+);
+
+bank.push(new question("What role does the protein Bad play in the apoptotic pathway?", 
+  "Bad signals for apoptosis and binds Bcl-2 to promote cell death", 
+  "Bad inhibits Caspase-9 activation", 
+  "Bad stabilizes Bcl-2 to prevent apoptosis", 
+  "Bad promotes trophic factor signaling", 1, 
+  "Bad is a pro-apoptotic protein that binds Bcl-2 to promote apoptosis when dephosphorylated.")
+);
+
+bank.push(new question("What happens to the chromatin during apoptosis?", 
+  "Chromatin condenses", 
+  "Chromatin expands", 
+  "Chromatin replicates", 
+  "Chromatin is degraded directly", 1, 
+  "During apoptosis, chromatin condenses as part of the execution phase.")
+);
+
+bank.push(new question("What is the final fate of apoptotic cell debris?", 
+  "It is phagocytosed", 
+  "It is released into the extracellular space", 
+  "It is recycled by the cell", 
+  "It triggers inflammation", 1, 
+  "The debris from apoptotic cells is phagocytosed by other cells.")
+);
+
+bank.push(new question("Which of the following is a form of inappropriate cell death?", 
+  "Neural degeneration", 
+  "Apoptosis in the immune system", 
+  "Apoptosis during normal development", 
+  "Cell cycle arrest", 1, 
+  "Neural degeneration is an example of inappropriate cell death.")
+);
+
+bank.push(new question("What is the result of excessive apoptosis in neurodegenerative diseases?", 
+  "Loss of neurons", 
+  "Increased neuron growth", 
+  "Cellular hypertrophy", 
+  "Overproduction of synapses", 1, 
+  "Excessive apoptosis in neurodegenerative diseases results in the loss of neurons.")
+);
+
+bank.push(new question("How does apoptosis differ from necrosis?", 
+  "Apoptosis is a regulated process, while necrosis is uncontrolled", 
+  "Apoptosis causes cell swelling, while necrosis causes membrane blebbing", 
+  "Apoptosis involves cell fusion, while necrosis leads to fragmentation", 
+  "Apoptosis causes inflammation, while necrosis does not", 1, 
+  "Apoptosis is a regulated, controlled process, while necrosis is uncontrolled and often leads to inflammation.")
+);
+
+bank.push(new question("What is the function of Ced-4 in nematodes?", 
+  "Ced-4 forms a complex with Ced-3 to activate caspases", 
+  "Ced-4 releases Cytochrome C", 
+  "Ced-4 prevents apoptosis", 
+  "Ced-4 degrades damaged DNA", 1, 
+  "Ced-4 in nematodes forms a complex with Ced-3 to activate caspases, driving apoptosis.")
+);
+
+bank.push(new question("What is the outcome of a mutation in Ced-9 in nematodes?", 
+  "Apoptosis is activated", 
+  "Apoptosis is prevented", 
+  "Caspases are not activated", 
+  "DNA is replicated inappropriately", 1, 
+  "A mutation in Ced-9 in nematodes prevents apoptosis from being inhibited, leading to premature activation of the apoptotic pathway.")
+);
+
+bank.push(new question("What does Apaf-1 do in the mammalian apoptotic pathway?", 
+  "Apaf-1 forms a complex with Cyt C to activate caspase-9", 
+  "Apaf-1 binds Bad", 
+  "Apaf-1 forms pores in the outer membrane", 
+  "Apaf-1 phosphorylates Bcl-2", 1, 
+  "Apaf-1 forms a complex with Cyt C to activate caspase-9 and trigger apoptosis.")
+);
