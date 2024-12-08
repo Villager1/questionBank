@@ -76,8 +76,10 @@ function done() {
     if (selectedValue && Number(selectedValue) == bank[order[j]].answer) {
       score++;
       document.getElementById(`q${j + 1}`).innerText = " Correct!";
+      document.getElementById(`q${j + 1}`).style.color = "green";
     } else {
       document.getElementById(`q${j + 1}`).innerText = " Wrong! Correct Answer: Option " + bank[order[j]].answer;
+      document.getElementById(`q${j + 1}`).style.color = "red";
       document.getElementById(`e${j + 1}`).innerText = bank[order[j]].explanation;
     }
   }
