@@ -50,8 +50,8 @@ function loadQuestions(bankID) {
     for (var i = 0; i < bank3h03.length; i++) {
       bank.push(bank3h03[i]);
     }
-    document.getElementByID("title").innerText = "Biochem 3H03 Question Bank";
-    document.getElementByID("subtitle").innerText = "Biochem 3H03 Question Bank";
+    document.getElementById("title").innerText = "Biochem 3H03 Question Bank";
+    document.getElementById("subtitle").innerText = "Biochem 3H03 Question Bank";
     document.getElementById("changeTest").innerText = "Change to Biochem 3D03";
   } else if(bank_id == 1) {
     for (var i = 0; i < bank3d03.length; i++) {
@@ -137,6 +137,7 @@ function done() {
 </script>
 </body>
 </html>
+
 
 
 
