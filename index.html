@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="title">Question Bank</title>
+  <title class="title">Question Bank</title>
 </head>
-<body onload="loadQuestions()">
+<body onload="loadQuestions(0)">
 
-<h2>Question Bank</h2>
+<h2 class="title">Question Bank</h2>
+<button id="changeTest" onclick="changeTest()">Change test</button>
+
 <h3 id="score">Score:</h3>
 <div id="q"></div>
 <button onclick="done()">Submit</button>
 <script>
+var bank3h03 = [];
+var bank3d03 = [];
 var bank = [];
 var altBank = [];
 var numBankQuestions = 20;
@@ -30,10 +34,26 @@ function question(q, a, b, c, d, answer, explanation) {
 </script>
 
 <!-- Load question bank -->
-<script src="banks/bio2b03exam.js"></script>
+<script src="banks/biochem3h03test1.js"></script>
+<script src="banks/biochem3d03test1.js"></script>
 
 <script>
-function loadQuestions() {
+function loadQuestions(bankID) {
+  //Load bank
+  if(bankID == 0) {
+    for (var i = 0; i < bank3h03.length; i++) {
+      bank.push(bank3h03[i]);
+      document.getElementsByClassName("title").innerText = "Biochem 3H03 Question Bank";
+      document.getElementById("changeTest").innerText = "Change to Biochem 3D03";
+    }
+  } else if(bankID == 1) {
+    for (var i = 0; i < bank3d03.length; i++) {
+      bank.push(bank3d03[i]);
+      document.getElementsByClassName("title").innerText = "Biochem 3D03 Question Bank";
+      document.getElementById("changeTest").innerText = "Change to Biochem 3H03";
+    }
+  }
+  
   //Bank Questions
   numBankQuestions = Math.min(numBankQuestions, bank.length);
   while (order.length < numBankQuestions) {
@@ -101,3 +121,4 @@ function done() {
 </script>
 </body>
 </html>
+
