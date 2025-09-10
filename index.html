@@ -19,8 +19,8 @@ var bank3d03 = [];
 var bank_id = 0;
 var bank = [];
 var altBank = [];
-var numBankQuestions = 20;
-var numAltQuestions = 0;
+var maxNumBankQuestions = 20;
+var maxNumAltQuestions = 0;
 var order = [];
 var altOrder = [];
 function question(q, a, b, c, d, answer, explanation) {
@@ -63,8 +63,8 @@ function loadQuestions(bankID) {
   }
   
   //Bank Questions
-  var trueNumBankQuestions = Math.min(numBankQuestions, bank.length);
-  while (order.length < trueNumBankQuestions) {
+  var numBankQuestions = Math.min(maxNumBankQuestions, bank.length);
+  while (order.length < numBankQuestions) {
     var random = Math.floor(Math.random() * bank.length);
     if (!order.includes(random)) {
       order.push(random);
@@ -72,9 +72,9 @@ function loadQuestions(bankID) {
   }
 
   //Alt Bank Questions
-  if (numAltQuestions > 0 && altBank.length > 0) {
-    var trueNumAltQuestions = Math.min(numAltQuestions, altBank.length)
-    while (altOrder.length < trueNumAltQuestions) {
+  if (maxNumAltQuestions > 0 && altBank.length > 0) {
+    var numAltQuestions = Math.min(maxNumAltQuestions, altBank.length)
+    while (altOrder.length < numAltQuestions) {
       var random = Math.floor(Math.random() * altBank.length);
       if (!altOrder.includes(random)) {
         altOrder.push(random);
@@ -137,6 +137,7 @@ function done() {
 </script>
 </body>
 </html>
+
 
 
 
