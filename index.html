@@ -63,8 +63,8 @@ function loadQuestions(bankID) {
   }
   
   //Bank Questions
-  numBankQuestions = Math.min(numBankQuestions, bank.length);
-  while (order.length < numBankQuestions) {
+  var trueNumBankQuestions = Math.min(numBankQuestions, bank.length);
+  while (order.length < trueNumBankQuestions) {
     var random = Math.floor(Math.random() * bank.length);
     if (!order.includes(random)) {
       order.push(random);
@@ -73,8 +73,8 @@ function loadQuestions(bankID) {
 
   //Alt Bank Questions
   if (numAltQuestions > 0 && altBank.length > 0) {
-    numAltQuestions = Math.min(numAltQuestions, altBank.length)
-    while (altOrder.length < numAltQuestions) {
+    var trueNumAltQuestions = Math.min(numAltQuestions, altBank.length)
+    while (altOrder.length < trueNumAltQuestions) {
       var random = Math.floor(Math.random() * altBank.length);
       if (!altOrder.includes(random)) {
         altOrder.push(random);
@@ -137,6 +137,7 @@ function done() {
 </script>
 </body>
 </html>
+
 
 
 
