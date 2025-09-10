@@ -116,8 +116,8 @@ function done() {
     } else {
       document.getElementById(`q${j + 1}`).innerText = " Wrong! Correct Answer: Option " + bank[order[j]].answer;
       document.getElementById(`q${j + 1}`).style.color = "red";
-      document.getElementById(`e${j + 1}`).innerText = bank[order[j]].explanation;
     }
+    document.getElementById(`e${j + 1}`).innerText = bank[order[j]].explanation;
   }
   // Check answers for alt bank questions
   for (var j = 0; j < altOrder.length; j++) {
@@ -129,14 +129,15 @@ function done() {
     } else {
       document.getElementById(`q${order.length + j + 1}`).innerText = " Wrong! Correct Answer: Option " + altBank[altOrder[j]].answer;
       document.getElementById(`q${order.length + j + 1}`).style.color = "red";
-      document.getElementById(`e${order.length + j + 1}`).innerText = altBank[altOrder[j]].explanation;
     }
+    document.getElementById(`e${order.length + j + 1}`).innerText = altBank[altOrder[j]].explanation;
   }
   document.getElementById("score").innerText = "Score: " + score + "/" + (order.length + altOrder.length);
 }
 </script>
 </body>
 </html>
+
 
 
 
