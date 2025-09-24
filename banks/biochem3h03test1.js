@@ -1,13 +1,13 @@
 //Bank questions here
 //bank3h03.push(new question("", "", "", "", "", 1, ""));
 
-//Lecture 1
+//Lecture 1 Intro
 bank3h03.push(new question("What is the difference between serum and plasma?", "Serum lacks clotting factors that plasma has", "Serum is the aqueous phase of blood, while plasma is coagulated blood", "Serum has white blood cells and platelets which can provide more information about the blood", "There is no difference between serum and plasma", 1, "Serum and plasma are both from the aqueous phase of blood, but unlike serum, plasma still has coagulation factors despite not clotting. Plasma is preserved by anticoagulants."));
 bank3h03.push(new question("What is the difference between the Reference Interval (RI) and the Clinical Decision Limit (CDL)?", "The RI is arbitrary while the CDL is based on population statistics", "The RI is used for clinical decision making while the CDL is used for identifying deviations from the average in the general population", "The RI is based on the general population and the CDL is based on the clinical population", "The RI is based on clinical studies and guidelines while the CDL is the 95% central interval of the reference distribution", 3, "The RI is based on the general population, and is based on the 95% central interval of the reference distribution. The CDL is based on studies and guidelines for the clinical population and is used for clinical decision making. The CDL can change because of how they are based."));
 bank3h03.push(new question("What is the difference between sensitivity in tests and specificity?", "Sensitivity is the ability to identify patients without the disease and specificity is the ability to identify patients with the disease", "High sensitivity is good for identifying a diagnosis, while high specificity is good for ruling out a diagnosis", "Sensitivity is the percentage of unaffected individuals who have a negative test result, specificity is the percentage of affected individuals who have a positive test result", "Sensitivity is measured by how often a test picks up a disease, while specificity is measured by how good a test is at ignoring those without the disease", 4, "Sensitivity is calculated based on how well a test picks up a disease, and specificity is calculated based on how specific it is only to individuals who are truly affected."));
 bank3h03.push(new question("In a population that is given a test for disease, 6 return a true negative, 1 returns a false negative, 1 returns a true positive, and 2 return a false positive. What is the sensitivity and specificity of the test?", "Sensitivity: 0.5, Specificity: 0.75", "Sensitivity: 50, Specificity: 75", "Sensitivity: 33.3, Specificity: 85.7", "Sensitivity: 0.333, Specificity: 0.857", 2, "Sensitivity is calculated by the amount of individuals with a true positive divided by the amount of affected individuals, times 100 (TP/(TP+FN) * 100), and specificity is calculated by the amount of individuals with a true negative divided by the amount of unaffected individuals, times 100 (TN/(TN+FP) * 100)."));
 
-//Lecture 2A
+//Lecture 2A Fluids
 bank3h03.push(new question("How much body water is stored in the intracellular compartment?", "1/3", "3/4", "1/4", "2/3", 4, "The intracellular compartment (ICF) contains around 2/3 of body water. The remaining 1/3 is in the ECF, with plasma holding 1/4 of it and interstitial fluid holding the other 3/4."));
 bank3h03.push(new question("Which is the major extracellular cation?", "Potassium", "Sodium", "Lithium", "Hydronium", 2, "Sodium is the major extracellular cation. Potassium is the major intracellular cation."));
 bank3h03.push(new question("What does it mean when the intracellular and extracellular fluids are isotonic?", "They have different osmolalities", "They have equal amounts of water", "They have the same osmolalities", "They have equal amounts of sodium", 3, "Isotonic means that the ICF and ECF have the same osmotic concentrations, or osmolalities, primarily determined by sodium concentration."));
@@ -18,5 +18,24 @@ bank3h03.push(new question("What is the purpose of Vasopressin (ADH)?", "To prom
 bank3h03.push(new question("When might ADH and Aldosterone be released together?", "Low blood pressure", "High salt intake", "High water intake", "Dilute urine", 1, "Low blood pressure can cause both ADH and Aldosterone to be released together. It decreases ECF volume, which releases ADH, and the decreased ECF volume also triggers the RAAS pathway, which releases Aldosterone."));
 bank3h03.push(new question("When might ADH be released but not Aldosterone?", "Low blood pressure", "High salt intake", "High water intake", "Dilute urine", 2, "High salt intake without enough water can release ADH due to increased ECF osmolality, but not Aldosterone because the abundance of salt in the ECF draws water into the ECF and increases volume, which suppresses the RAAS pathway."));
 
-//Lecture 2B
+//Lecture 2B Fluids
+bank3h03.push(new question("What is the threshold plasma sodium concentration for Hyponatremia?", "<146 mmol/L", "<133 mmol/L", ">146 mmol/L", ">133 mmol/L", 2, "The threshold plasma concentration for Hyponatremia is 133 mmol/L. Below that, a patient may have Hyponatremia."));
+
+bank3h03.push(new question("Which of the following is not a cause of true Hyponatremia? (Pick option 1 for now, Hyperglycemia is also Pseudohyponatremia according to the slides but not according to the internet)", "Hyperlipidemia", "Hyperglycemia", "Dilutional Hyponatremia", "All of the above are cause of Pseudohyponatremia", 1, "Hyperlipidemia causes Pseudohyponatremia by lowering the water fraction in serum, resulting in indirect (diluted) measurements showing lower sodium concentration. Hyperglycemia and Dilutional Hyponatremia decrease sodium concentration by adding water into the ECF (High Glucose --> ICF water to ECF --> Low Na+, Excess ECF water --> Low Na+, respectively)."));
+
+bank3h03.push(new question("How can someone with Pseudohyponatremia have their sodium levels evaluated correctly?", "Have them drink 2L of water right before measurement", "Add saline solution to the sample to increase the water fraction", "Measure the undiluted sample directly", "It's impossible, you can only estimate it", 3, "Pseudohyponatremia can be avoided by using a direct measurement of the sample."));
+bank3h03.push(new question("A patient has 125 mmol/L Na+, elevated cholesterol, and normal serum osmolality with a history of Hyperlipidemia. What is a likely diagnosis?", "Pseudohyponatremia", "Hyponatremia", "Hypernatremia", "No issue", 1, "High cholesterol and a history of Hyperlipidemia indicates the possibility of Pseudohyponatremia caused by elevated serum lipids."));
+bank3h03.push(new question("A patient has 127 mmol/L Na+, normal cholesterol, and low serum osmolality. What is a likely diagnosis?", "Pseudohyponatremia", "Hyponatremia", "Hypernatremia", "No issue", 2, "A low Na+ concentration with low serum osmolality and no other abnormal readings indicates true Hyponatremia, possibly dilutional from high water intake."));
+bank3h03.push(new question("What is the threshold plasma sodium concentration for Hypernatremia?", ">133 mmol/L", "<133 mmol/L", "<146 mmol/L", ">146 mmol/L", 4, "The threshold plasma concentration for Hypernatremia is 146 mmol/L. Above that, a patient may have Hypernatremia."));
+bank3h03.push(new question("A patient has 167 mmol/L Na+, normal cholesterol, and high serum osmolality with low blood pressure. What is a likely diagnosis?", "Pseudohyponatremia", "Hyponatremia", "Hypernatremia", "No issue", 3, "High Na+ concentration with high serum osmolality and low blood pressure indicates Hypernatremia, possibly from low water intake."));
+
+//Lecture 3 Hydrogen Ion
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
