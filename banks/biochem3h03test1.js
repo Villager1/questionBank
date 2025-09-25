@@ -31,12 +31,15 @@ bank3h03.push(new question("A patient has 167 mmol/L Na+, normal cholesterol, an
 bank3h03.push(new question("A patient has 135 mmol/L Na+, normal cholesterol, and normal serum osmolality. What is a likely diagnosis?", "Pseudohyponatremia", "Hyponatremia", "Hypernatremia", "No issue", 4, "Na+ concentration within the normal range (133 mmol/L - 146 mmol/L) does not indicate any sodium imbalance."));
 
 //Lecture 3A Hydrogen Ion
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("Where is excess CO2 removed from the body?", "Lungs", "Kidneys", "Liver", "Heart", 1, "Excess CO2 is removed from the body through exhalation in the lungs."));
+bank3h03.push(new question("Where is excess H+ removed from the body?", "Liver", "Lungs", "Heart", "Kidneys", 4, "Excess H+ ions are excreted through the kidneys."));
+bank3h03.push(new question("What is the pathway that CO2 takes to increase H+ levels in the ECF?", "CO2 + H2O <--> CO3(2-) + 2H+", "CO2 + H2O <--> HCO3- + H+", "CO2 + H2O <--> H2CO3 <--> HCO3- + H+", "CO2 + CH4 <--> CH3COO- + H+", 3, "CO2 first gets converted to H2CO3 when combined with water, which can then dissociate into HCO3- and H+ ions. This increases H+ levels in the ECF."));
+bank3h03.push(new question("What is the ECF's main buffer system?", "H2PO4- / HPO4(2-)", "H3O+ / OH-", "HCl / Cl-", "H2CO3 / HCO3-", 4, "The ECF's main buffer system is the Carbonic Acid - Bicarbonate system. It uses this system to regulate excess charged ions."));
+bank3h03.push(new question("What form does CO2 mostly take in the bloodstream?", "CO2", "H2CO3", "HCO3-", "None of the above", 3, "Carbon dioxide mostly takes the form of bicarbonate, as part of the H2CO3 / HCO3- buffer. Bicarbonate is more common because the pH of blood needs to be 7.35-7.45."));
+bank3h03.push(new question("Where is carbon dioxide converted into bicarbonate?", "Lungs", "Liver", "Red Blood Cells", "Heart", 3, "Carbon dioxide is converted into bicarbonate in the red blood cells."));
+bank3h03.push(new question("How can blood CO2 concentration be measured?", "By cooling it to liquid CO2", "By measuring HCO3- concentration", "By measuring H+ concentration", "By measuring the partial pressure of CO2", 4, "Blood CO2 can be measured by its partial pressure."));
+bank3h03.push(new question("Which of the following statements is true?", "[H2CO3] is inversely proportional to P(CO2)", "[H+] is proportional to [HCO3-]", "[H2CO3] is proportional to [HCO3-]", "[H+] is proportional to P(CO2)", 4, "H+ concentration is directly proportional to P(CO2)."));
+bank3h03.push(new question("How do we assess acid-base homeostasis in the blood?", "Urine sample", "Arterial blood gas test", "Blood cell test", "Kidney acidity test", 2, "Arterial blood gas (ABG) tests are used to assess acid-base homeostasis in the blood since it can collect information about CO2 and O2 partial pressures. It is usually taken from the radial / brachial artery."));
+
+//Lecture 3B Hydrogen Ion
 bank3h03.push(new question("", "", "", "", "", 1, ""));
