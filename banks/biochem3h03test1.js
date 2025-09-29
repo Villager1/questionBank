@@ -68,8 +68,8 @@ bank3h03.push(new question("What might we see in patients with severe glomerular
 bank3h03.push(new question("A patient has been diagnosed with diabetes mellitus (DM), and the doctor orders a urine albumin test. Why?", "Glucose catalyzes albumin production in the kidneys", "Glucose catalyzes albumin production outside the kidneys", "DM patients haev a higher risk of kidney disease, and early detection helps prevent disease progression", "Glucose damages the glomerulus, and testing urine albumin levels can determine the need for a kidney replacement", 3, "DM patients have an increased risk of kidney disease. 7-10 years after DM onset, the damage done to the kidneys can increase permeability and lead to albuminuria. Early detection can help prevent the progression of kidney disease."));
 
 //Lecture 4B Kidneys
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("A patient took a urine test and has moderate leukocytes, moderate RBCs, nitrite positive, and everything else in range. What is the most likely explanation?", "UTI", "Impaired glomerular integrity", "Diabetes", "Albuminuria", 1, "Leukocytes and nitrite in the urine are markers of a UTI. RBCs suggest bleeding in the urinary tract."));
+bank3h03.push(new question("A patient took a urine test and has a small presence of bacteria and yeast. What is the most likely explanation?", "Hematuria", "UTI", "Albuminuria", "Severe glomerular damage", 2, "Bacteria or yeast could indicate a UTI, but could also indicate contamination of the sample."));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
