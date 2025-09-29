@@ -63,6 +63,17 @@ bank3h03.push(new question("Where does additional water get reabsorbed through t
 bank3h03.push(new question("Where is sodium reabsorption fine-tuned and excess H+ excreted with ammonia?", "Glomeruli", "Proximal Tubules", "Loops of Henle", "Distal Tubules", 4, "Fine-tuning as well as excess H+ ion excretion occur in the distal tubules."));
 bank3h03.push(new question("Why is creatinine used to assess glomerular filtration rate (GFR)?", "Creatinine binds tightly to water", "Creatinine binds tightly to Na+", "Creatinine does not get reabsorbed in the kidneys", "Creatinine suppresses the reabsorption mechanism in the nephrons", 3, "Creatinine does not get reabsorbed in the kidneys, so it can be used to calculate the efficiency of filtration in the Glomeruli."));
 bank3h03.push(new question("What limitations do creatinine GFR tests have?", "Plasma creatinine is not very sensitive to Glomeruli function, and can read within range even with GFR issues", "Many processes can alter plasma creatinine levels, limiting its accuracy in diagnosing GFR issues", "Both of the above", "None of the above; it is a reliable test in all cases", 3, "Both insensitivity of plasma creatinine to GFR issues and disruptions in plasma creatinine are limitations that may necessitate further GFR testing in some cases."));
+bank3h03.push(new question("What might we see in patients with impaired glomerular integrity?", "Hyponatremia", "Hypernatremia", "Higher than normal urine creatinine", "Albuminuria", 4, "Albuminuria can be detected in patients with impaired glomerular integrity. It is in the form of albuminuria when measured with a urine dipstick and microalbuminuria when detected in laboratory analysis."));
+bank3h03.push(new question("What might we see in patients with severe glomerular damage?", "Hyponatremia", "Albuminuria", "Hematuria", "None of the above", 3, "Hematuria (red blood cells in urine) can be detected in patients with severe glomerular damage, and can be in the form of microhematuria or macrohematuria."));
+bank3h03.push(new question("A patient has been diagnosed with diabetes mellitus (DM), and the doctor orders a urine albumin test. Why?", "Glucose catalyzes albumin production in the kidneys", "Glucose catalyzes albumin production outside the kidneys", "DM patients haev a higher risk of kidney disease, and early detection helps prevent disease progression", "Glucose damages the glomerulus, and testing urine albumin levels can determine the need for a kidney replacement", 3, "DM patients have an increased risk of kidney disease. 7-10 years after DM onset, the damage done to the kidneys can increase permeability and lead to albuminuria. Early detection can help prevent the progression of kidney disease."));
+
+//Lecture 4B Kidneys
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("", "", "", "", "", 1, ""));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
 bank3h03.push(new question("", "", "", "", "", 1, ""));
