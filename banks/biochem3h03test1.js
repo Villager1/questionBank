@@ -96,6 +96,7 @@ bank3h03.push(new question("An increase in what in the plasma can induce jaundic
 
 //Lecture 5B Liver
 bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
-bank3h03.push(new question("", "", "", "", "", 1, ""));
+bank3h03.push(new question("What does an AST/ALT ratio <1 indicate?", "Viral hepatitis", "Alcohol-induced hepatitis", "Toxic or ischemic hepatitis", "Chronic liver disease", 1, "An AST/ALT ratio <1 indicates viral hepatitis, along with a 5-50x increase in AST and ALT, mildly elevated ALP, and increased bilirubin."));
+bank3h03.push(new question("What does an AST/ALT ratio >2 indicate?", "Viral hepatitis", "Alcohol-induced hepatitis", "Toxic or ischemic hepatitis", "Chronic liver disease", 2, "An AST/ALT ratio >2 indicates viral hepatitis, along with a <10x increase in AST and ALT, elevated ALP and GGT, and increased bilirubin."));
+bank3h03.push(new question("What does an AST and ALT reading 100x the URL indicate?", "Viral hepatitis", "Alcohol-induced hepatitis", "Toxic or ischemic hepatitis", "Chronic liver disease", 3, "An AST and ALT reading 100x the URL indicates toxic or ischemic heaptitis, typically 24-48 hours after the ingestion or ischemic event. Bilirubin levels in this case are minimal."));
+bank3h03.push(new question("What does mildly elevated (~2x URL) AST and ALT for over 6 months indicate, and is it sufficient for diagnosis?", "Viral hepatitis, yes", "Alcohol-induced hepatitis, yes", "Toxic or ischemic hepatitis, no", "Chronic liver disease, no", 4, "A mildly elevated AST and ALT reading for over 6 months, along with within range ALP GGT, and bilirubin levels, indicates chronic liver disease. However, the gold standard for diagnosis and evaluation of progression of this disease is a liver biopsy."));
