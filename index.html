@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="title">Question Bank</title>
 </head>
-<body onload="loadQuestions(0)">
+<body onload="loadQuestions(3)">
 
 <h2 id="subtitle">Question Bank</h2>
 <p>Reload to get new questions!</p>
 <p id="description" style="color: #555555;"></p>
-<button id="changeTest" onclick="changeTest()">Change test</button>
+<button onclick="loadQuestions(0)">Bio 2B03 Test 1</button>
+<button onclick="loadQuestions(1)">Bio 2B03 Exam</button>
+<button onclick="loadQuestions(2)">Biochem 2B03 Test 2</button>
+<button onclick="loadQuestions(3)">Biochem 3H03 Test 1</button>
+<button onclick="loadQuestions(4)">Biochem 3D03 Test 1</button>
 
 <h3 id="score">Score:</h3>
 <div id="q"></div>
@@ -18,8 +22,12 @@
 <br />
 <br />
 <script>
-var bank3h03 = [];
-var bank3d03 = [];
+var bankBio2b03t1 = [];
+var bankBio2b03e = [];
+var bankBiochem2b03t2 = [];
+var bankBiochem3h03t1 = [];
+var bankBiochem3d03t1 = [];
+
 var bank_id = 0;
 var bank = [];
 var altBank = [];
@@ -51,21 +59,40 @@ function loadQuestions(bankID) {
   order = [];
   altOrder = [];
   if(bank_id == 0) {
-    for (var i = 0; i < bank3h03.length; i++) {
-      bank.push(bank3h03[i]);
+    for (var i = 0; i < bankBio2b03t1.length; i++) {
+      bank.push(bankBio2b03t1[i]);
+    }
+    document.getElementById("title").innerText = "Bio 2B03 Test 1 Question Bank";
+    document.getElementById("subtitle").innerText = "Bio 2B03 Test 1 Question Bank";
+    document.getElementById("description").innerText = "Do the question bank: 3x for 50% of content, 5x for 75% of content, 9x for 90% of content, 11x for 95% of content, and 18x for 100% of content (>50% chance).";
+  } else if(bank_id == 1) {
+    for (var i = 0; i < bankBio2b03e.length; i++) {
+      bank.push(bankBio2b03e[i]);
+    }
+    document.getElementById("title").innerText = "Bio 2B03 Exam Question Bank";
+    document.getElementById("subtitle").innerText = "Bio 2B03 Exam Question Bank";
+    document.getElementById("description").innerText = "";
+  } else if(bank_id == 2) {
+    for (var i = 0; i < bankBiochem2b03t2.length; i++) {
+      bank.push(bankBiochem2b03t2[i]);
+    }
+    document.getElementById("title").innerText = "Biochem 2B03 Test 2 Question Bank";
+    document.getElementById("subtitle").innerText = "Biochem 2B03 Test 2 Question Bank";
+    document.getElementById("description").innerText = "";
+  } else if(bank_id == 3) {
+    for (var i = 0; i < bankBiochem3h03t1; i++) {
+      bank.push(bankBiochem3h03t1[i]);
     }
     document.getElementById("title").innerText = "Biochem 3H03 Question Bank";
     document.getElementById("subtitle").innerText = "Biochem 3H03 Question Bank";
     document.getElementById("description").innerText = "Do the question bank: 3x for 50% of content, 5x for 75% of content, 9x for 90% of content, 11x for 95% of content, and 18x for 100% of content (>50% chance).";
-    document.getElementById("changeTest").innerText = "Change to Biochem 3D03";
-  } else if(bank_id == 1) {
+  } else if(bank_id == 4) {
     for (var i = 0; i < bank3d03.length; i++) {
       bank.push(bank3d03[i]);
     }
     document.getElementById("title").innerText = "Biochem 3D03 Question Bank";
     document.getElementById("subtitle").innerText = "Biochem 3D03 Question Bank";
     document.getElementById("description").innerText = "";
-    document.getElementById("changeTest").innerText = "Change to Biochem 3H03";
   }
   
   //Bank Questions
@@ -98,14 +125,6 @@ function loadQuestions(bankID) {
   }
   questions += "</form>";
   document.getElementById("q").innerHTML = questions;
-}
-
-function changeTest() {
-  if(bank_id == 0) {
-    loadQuestions(1);
-  } else if(bank_id == 1) {
-    loadQuestions(0);
-  }
 }
 
 function done() {
@@ -143,6 +162,7 @@ function done() {
 </script>
 </body>
 </html>
+
 
 
 
