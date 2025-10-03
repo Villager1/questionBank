@@ -67,7 +67,7 @@ function loadQuestions(bankID) {
     }
     document.getElementById("title").innerText = "Bio 2B03 Test 1 Question Bank";
     document.getElementById("subtitle").innerText = "Bio 2B03 Test 1 Question Bank";
-    document.getElementById("description").innerText = "Do the question bank: 3x for 50% of content, 5x for 75% of content, 9x for 90% of content, 11x for 95% of content, and 18x for 100% of content (>50% chance).";
+    document.getElementById("description").innerText = "";
   } else if(bank_id == 1) {
     for (var i = 0; i < bankBio2b03e.length; i++) {
       bank.push(bankBio2b03e[i]);
@@ -83,15 +83,15 @@ function loadQuestions(bankID) {
     document.getElementById("subtitle").innerText = "Biochem 2B03 Test 2 Question Bank";
     document.getElementById("description").innerText = "";
   } else if(bank_id == 3) {
-    for (var i = 0; i < bankBiochem3h03t1; i++) {
+    for (var i = 0; i < bankBiochem3h03t1.length; i++) {
       bank.push(bankBiochem3h03t1[i]);
     }
     document.getElementById("title").innerText = "Biochem 3H03 Question Bank";
     document.getElementById("subtitle").innerText = "Biochem 3H03 Question Bank";
     document.getElementById("description").innerText = "Do the question bank: 3x for 50% of content, 5x for 75% of content, 9x for 90% of content, 11x for 95% of content, and 18x for 100% of content (>50% chance).";
   } else if(bank_id == 4) {
-    for (var i = 0; i < bank3d03.length; i++) {
-      bank.push(bank3d03[i]);
+    for (var i = 0; i < bankBiochem3d03t1.length; i++) {
+      bank.push(bankBiochem3d03t1[i]);
     }
     document.getElementById("title").innerText = "Biochem 3D03 Question Bank";
     document.getElementById("subtitle").innerText = "Biochem 3D03 Question Bank";
@@ -165,6 +165,7 @@ function done() {
 </script>
 </body>
 </html>
+
 
 
 
