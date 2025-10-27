@@ -14,7 +14,7 @@
 <button onclick="loadQuestions(1)">Bio 2B03 Exam</button>
 <button onclick="loadQuestions(2)">Biochem 2B03 Test 2</button>
 <button onclick="loadQuestions(3)">Biochem 3H03 Test 1</button>
-<button onclick="loadQuestions(4)">Biochem 3D03 Test 1</button>
+<button onclick="loadQuestions(4)">Biochem 3H03 Test 2</button>
 
 <h3 id="score">Score:</h3>
 <div id="q"></div>
@@ -26,7 +26,7 @@ var bankBio2b03t1 = [];
 var bankBio2b03e = [];
 var bankBiochem2b03t2 = [];
 var bankBiochem3h03t1 = [];
-var bankBiochem3d03t1 = [];
+var bankBiochem3h03t2 = [];
 
 var bank_id = 0;
 var bank = [];
@@ -51,7 +51,7 @@ function question(q, a, b, c, d, answer, explanation) {
 <script src="banks/bio2b03exam.js"></script>
 <script src="banks/biochem2b03midterm2.js"></script>
 <script src="banks/biochem3h03test1.js"></script>
-<script src="banks/biochem3d03test1.js"></script>
+<script src="banks/biochem3h03test2.js"></script>
 
 <script>
 function loadQuestions(bankID) {
@@ -86,15 +86,15 @@ function loadQuestions(bankID) {
     for (var i = 0; i < bankBiochem3h03t1.length; i++) {
       bank.push(bankBiochem3h03t1[i]);
     }
-    document.getElementById("title").innerText = "Biochem 3H03 Question Bank";
-    document.getElementById("subtitle").innerText = "Biochem 3H03 Question Bank";
+    document.getElementById("title").innerText = "Biochem 3H03 Test 1 Question Bank";
+    document.getElementById("subtitle").innerText = "Biochem 3H03 Test 1 Question Bank";
     document.getElementById("description").innerText = "Do the question bank: 3x for 50% of content, 5x for 75% of content, 9x for 90% of content, 11x for 95% of content, and 18x for 100% of content (>50% chance).";
   } else if(bank_id == 4) {
-    for (var i = 0; i < bankBiochem3d03t1.length; i++) {
-      bank.push(bankBiochem3d03t1[i]);
+    for (var i = 0; i < bankBiochem3h03t2.length; i++) {
+      bank.push(bankBiochem3h03t2[i]);
     }
-    document.getElementById("title").innerText = "Biochem 3D03 Question Bank";
-    document.getElementById("subtitle").innerText = "Biochem 3D03 Question Bank";
+    document.getElementById("title").innerText = "Biochem 3H03 Test 2 Question Bank";
+    document.getElementById("subtitle").innerText = "Biochem 3H03 Test 2 Question Bank";
     document.getElementById("description").innerText = "";
   }
   
@@ -165,6 +165,7 @@ function done() {
 </script>
 </body>
 </html>
+
 
 
 
