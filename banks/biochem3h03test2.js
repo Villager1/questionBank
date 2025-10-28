@@ -102,14 +102,33 @@ bankBiochem3h03t2.push(new question("What does mildly elevated (~2x URL) AST and
 
 
 //Lecture 6A Diabetes Mellitus
-bankBiochem3h03t2.push(new question("", "a", "b", "c", "d", 1, "e"));
+bankBiochem3h03t2.push(new question("What group of people is protected from Diabetes Mellitus (they cannot get it as easily)?", "___", "Premenopausal women", "___", "___", 2, "Premenopausal women are protected from DM, but it goes away after menopause and postmenopausal women experience DM at a rate similar to men."));
+bankBiochem3h03t2.push(new question("What is Type 1 Diabetes Mellitus primarily caused by?", "Environmental Factors", "Autoimmune diseases", "___", "___", 2, "Type 1 DM is caused by autoimmune diseases."));
+bankBiochem3h03t2.push(new question("What is Type 2 Diabetes Mellitus primarily caused by?", "Genetic Factors", "Metabolic Factors", "Environmental Factors", "All of the above", 4, "Type 2 DM is caused by a combination of genetic, metabolic, and environmental factors."));
+bankBiochem3h03t2.push(new question("When does Gestational Diabetes Mellitus occur?", "Second or Third trimester of pregnancy", "___", "___", "___", 1, "Gestational DM occurs in the second or third trimester of pregnancy, and typically resolves after birth but increases risk of Type 2 DM later in life."));
+bankBiochem3h03t2.push(new question("What are symptoms of Diabetes Mellitus?", "Polyuria", "Hyperglycemia", "Fatigue", "All of the above", 4, "All of the options are symptoms of Diabetes Mellitus."));
+bankBiochem3h03t2.push(new question("Why is thirst a symptom of Diabetes Mellitus?", "___", "___", "Polyuria increases osmolality in the blood, activating thirst centres", "___", 3, "Polyuria loses water in the blood, which increases osmolality. This triggers the release of ADH and activation of thirst centres."));
+bankBiochem3h03t2.push(new question("What are symptoms of Diabetic Nephropathy (kidney damage)?", "Microalbuminuria", "Proteinuria when severe", "All of the above", "None of the above", 3, "Microalbuminuria is a symptom of Diabetic Nephropathy. Proteinuria is a symptom of severe Diabetic Nephropathy."));
+bankBiochem3h03t2.push(new question("Which of the following is used to diagnose Diabetes Mellitus?", "Random blood glucose >7mM", "Polyuria + random blood glucose >11.1mM", "Fasting blood glucose >11.1mM", "Glycated HbA1C >7% (in adults, not if T1DM is suspected)", 2, "Diagnosis of DM requires one of the following: Symptoms (e.g. polyuria) + random blood glucose >11.1mM; Fasting (> or equal to 8 hours) glucose >7mM; Glycated Hb >6.5% in adults (not if T1DM is suspected)."));
+bankBiochem3h03t2.push(new question("Which of the following is used to diagnose Diabetes Mellitus?", "Polyuria + fasting blood glucose >11.1mM", "Glycated HbA1C >6.5% (for T1DM only)", "Fasting blood glucose >7mM", "Random blood glucose >7mM", 3, "Diagnosis of DM requires one of the following: Symptoms (e.g. polyuria) + random blood glucose >11.1mM; Fasting (> or equal to 8 hours) glucose >7mM; Glycated Hb >6.5% in adults (not if T1DM is suspected)."));
+bankBiochem3h03t2.push(new question("Which of the following is used to diagnose Diabetes Mellitus?", "Glycated HbA1C >6.5 (in adults, not if T1DM is suspected)", "Polyuria + random blood glucose >7mM", "Fasting blood glucose >11.1mM", "Random blood glucose >11.1mM", 1, "Diagnosis of DM requires one of the following: Symptoms (e.g. polyuria) + random blood glucose >11.1mM; Fasting (> or equal to 8 hours) glucose >7mM; Glycated Hb >6.5% in adults (not if T1DM is suspected)."));
+bankBiochem3h03t2.push(new question("Which of the following is used to diagnose Diabetes Mellitus?", "___", "___", "___", "___", 1, "Diagnosis of DM requires one of the following: Symptoms (e.g. polyuria) + random blood glucose >11.1mM; Fasting (> or equal to 8 hours) glucose >7mM; Glycated Hb >6.5% in adults (not if T1DM is suspected)."));
+
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
 
 //Lecture 6B Diabetes Mellitus
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
 
 //Lecture 7 Cardiovascular Diseases
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
 
 //Lecture 8A Complete Blood Count
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
 
 //Lecture 8B Complete Blood Count
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
 
 //Lecture 9 Thyroid
+bankBiochem3h03t2.push(new question("", "___", "___", "___", "___", 1, "e"));
