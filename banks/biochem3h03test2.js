@@ -140,7 +140,7 @@ bankBiochem3h03t2.push(new question("32-year-old female presents to the ER with 
 
 //Lecture 7 Cardiovascular Diseases
 bankBiochem3h03t2.push(new question("How are free fatty acids transported in plasma?", "On their own", "With albumin", "With apoproteins", "None of the above", 2, "Free fatty acids are transported in plasma with albumin."));
-bankBiochem3h03t2.push(new question("How are non-free fatty acid lipids transported in plasma?", "On their own", "With albumin", "With apoproteins", "None of the above", 3, "Other lipids (not free faatty acids) are transported in plasma with apoproteins to form lipoproteins."));
+bankBiochem3h03t2.push(new question("How are non-free fatty acid lipids transported in plasma?", "On their own", "With albumin", "With apoproteins", "None of the above", 3, "Other lipids (not free fatty acids) are transported in plasma with apoproteins to form lipoproteins."));
 bankBiochem3h03t2.push(new question("What do chylomicrons mainly transport?", "Triglycerides", "Cholesterol", "Apoproteins", "Phospholipids", 1, "Chylomicrons are formed in enterocytes and are >90% triglycerides."));
 bankBiochem3h03t2.push(new question("What do very-low density lipoproteins (VLDL) mainly transport?", "Triglycerides", "Cholesterol", "Apoproteins", "Phospholipids", 1, "VLDLs are formed in the liver and mainly transport endogenous triglycerides."));
 bankBiochem3h03t2.push(new question("What do low density lipoproteins (LDL) mainly transport?", "Triglycerides", "Cholesterol", "Apoproteins", "Phospholipids", 2, "LDLs mainly transport cholesterol."));
