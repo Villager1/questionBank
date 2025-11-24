@@ -25,25 +25,52 @@ bankBiochem3d03t2.push(new question("Why does high ATP lead to less ATP synthase
 
 
 //Lecture 6
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
-bankBiochem3d03t2.push(new question("", "", "", "", "", 1, ""));
+bankBiochem3d03t2.push(new question("How much ATP equivalent (ignoring NADH) is required per glucose in gluconeogenesis?", "2", "4", "6", "8", 3, "6 ATP equivalents (4 ATP + 2 GTP) are required for gluconeogenesis from pyruvate."));
+bankBiochem3d03t2.push(new question("What enzyme is resposible for converting pyruvate into oxaloacetate in gluconeogenesis?", "Pyruvate carboxylase", "PEP carboxykinase", "Fructose-(1,6)-bisphosphatase", "G6Pase", 1, "Pyruvate carboxylase (PC) converts pyruvate + HCO3- + ATP into oxaloacetate + ADP + Pi."));
+bankBiochem3d03t2.push(new question("Which enzyme uses GTP in gluconeogenesis?", "Pyruvate carboxylase", "PEP carboxykinase", "Fructose-(1,6)-bisphosphatase", "G6Pase", 2, "PEP carboxykinase (PEPCK) converts oxaloacetate + GTP into PEP + GDP + CO2."));
+bankBiochem3d03t2.push(new question("Why does the Cori cycle exist, even though it is a futile cycle?", "___", "ATP is needed fast during exercise, efficiency can be ignored", "___", "It is not a futile cycle", 1, "During intense exercise, muscle lactate is brought to the liver to convert into glucose to bring back to the muscle, since ATP is needed quickly."));
+bankBiochem3d03t2.push(new question("Which carbon has a double bond in the fatty acid with notation 18:1(⍵-6)?", "3", "6", "12", "18", 3, "The omega system counts from the methyl end, and ⍵ = 18 for a fatty acid chain of length 18, so the double bond is on carbon ⍵-6 = 18-6 = 12"));
+bankBiochem3d03t2.push(new question("What happens to glycerol during TG breakdown?", "Adipose tissue", "Glycolysis", "Urea cycle", "β-oxidation", 2, "Glycerol goes to glycolysis after TG breakdown."));
+bankBiochem3d03t2.push(new question("What is true about acyl-CoA synthetase during β-oxidation?", "It converts GTP into GDP", "It converts ATP into ADP", "It converts fatty acid CoA into fatty acids", "It converts ATP into AMP", 4, "Acyl-CoA synthetase converts fatty acids + ATP + CoA into fatty acid CoA + AMP + PPi."));
+bankBiochem3d03t2.push(new question("What is the point of the carnitine transport system?", "It carries fat into the matrix", "___", "___", "___", 1, "After activation in the cytosol, the carnitine transport system carries fat into the matrix for β-oxidation."));
+bankBiochem3d03t2.push(new question("What does carnitine palmitoyl transferase I (CPT I) do?", "Allows carnitine to be carried into the cytosol", "Attaches carnitine to fat", "Detaches carnitine from fat", "Allows fat to be carried into the cytosol", 2, "CPT I attaches carnitine to fat so it can be carried into the matrix."));
+bankBiochem3d03t2.push(new question("What does carnitine palmitoyl transferase II (CPT II) do?", "Allows carnitine to be carried into the matrix", "Attaches carnitine to fat", "Detaches carnitine from fat", "Allows fat to be carried into the cytosol", 3, "CPT II detaches carnitine from fat after being carried into the matrix."));
+bankBiochem3d03t2.push(new question("What is the correct order of metabolites in β-oxidation?", "Fatty acid, ɑβ unsaturated fatty acid, β-hydroxyacid, β-ketoacid, fatty acid (n-2)", "Fatty acid, ɑβ unsaturated fatty acid, β-ketoacid, β-hydroxyacid, fatty acid (n-2)", "Fatty acid, β-hydroxyacid, β-ketoacid, ɑβ unsaturated fatty acid, fatty acid (n-2)", "Fatty acid (n-2), ɑβ unsaturated fatty acid, β-ketoacid, β-hydroxyacid, fatty acid", 1, "Fatty acids first get dehydrogenated with FAD into an ɑβ unsaturated fatty acid, then hydrated into a β-hydroxyacid, then dehydrogenated with NAD+ into a β-ketoacid, then cleaved by HS-CoA into acetyl-CoA + a fatty acid of length n-2."));
+bankBiochem3d03t2.push(new question("Which enzyme uses FAD in β-oxidation?", "Acyl-CoA dehydrogenase", "Enoyl-CoA hydratase", "Hydroxyacyl dehydrogenase", "Thiolase", 1, "Acyl-CoA dehydrogenase uses FAD to unsaturate the fatty acid."));
+bankBiochem3d03t2.push(new question("Which enzyme uses NAD+ in β-oxidation?", "Acyl-CoA dehydrogenase", "Enoyl-CoA hydratase", "Hydroxyacyl dehydrogenase", "Thiolase", 3, "Hydroxyacyl dehydrogenase uses NAD+ to dehydrogenate the β-hydroxyacid."));
+bankBiochem3d03t2.push(new question("What helps thiolase cleave the fatty acid in β-oxidation?", "acetyl-CoA", "malonyl-CoA", "HS-CoA", "propionyl-CoA", 3, "Thiolase uses HS-CoA to cleave the fatty acid."));
+bankBiochem3d03t2.push(new question("How many ATP equivalents does β-oxidation of palmitate yield?", "33", "35", "129", "131", 3, "Yield from 7 rounds of β-oxidation produces 7 NADH and 7 FADH2 (~35 ATP), and the 8 acetyl-CoA generated yields 24 NADH, 8 FADH2, and 8 GTP (~96 ATP). 2 ATP equivalents need to be subtracted from the activation step (ATP --> AMP ~ 2 ATP equivalents) which leads to a total of 129 ATP equivalents."));
+
+//Lecture 7
+bankBiochem3d03t2.push(new question("When can uncouplers be useful?", "For additional ATP", "___", "___", "For heat", 4, "Uncouplers provide an alternate pathway for the proton gradient to generate heat instead of ATP."));
+bankBiochem3d03t2.push(new question("What is false about ketones?", "Ketones can be transported without albumin", "Ketones are generated during periods of starvation", "___", "Ketones are the best source of energy for the cell", 4, "Ketones are not the best source of energy for the cell. They are mainly generated during periods of starvation."));
+bankBiochem3d03t2.push(new question("When is acetyl-CoA used for fatty acid synthesis?", "Starvation state", "Fasting state", "Postprandial state", "Never", 3, "Excess acetyl-CoA is used for fatty acid synthesis during the postprandial state."));
+bankBiochem3d03t2.push(new question("What metabolite is not used for the acetyl-CoA transport pathway to the cytosol?", "Oxaloacetate", "Malate", "Citrate", "Fumarate", 4, "Citrate synthase combines oxaloacetate and acetyl-CoA to make citrate and HS-CoA, then the tricarboxylate transport system moves it to the cytosol. ATP-citrate lyase uses ATP to turn citrate and HS-CoA to oxaloacetate and acetyl-CoA, then malate dehydrogenase turns oxaloacetate into malate."));
+bankBiochem3d03t2.push(new question("Where does fatty acid synthesis occur?", "Cytosol", "Matrix", "___", "___", 1, "Fatty acid synthesis occurs in the cytosol."));
+bankBiochem3d03t2.push(new question("Which enzyme converts acetyl-CoA to malonyl-CoA?", "Acetyl-CoA carboxylase", "Malonyl-CoA carboxylase", "Acetyl-CoA-ACP transacylase", "Malonyl-CoA-ACP transacylase", 1, "Acetyl-CoA carboxylase converts acetyl-CoA to malonyl-CoA."));
+bankBiochem3d03t2.push(new question("What does the first condensation reaction in fatty acid synthesis use?", "2x acetyl-CoA", "2x malonyl-CoA", "1x acetyl-CoA, 1x RCO-CoA", "1x acetyl-CoA, 1x malonyl-CoA", 4, "The first condensation reaction in fatty acid synthesis uses 1 acetyl-CoA and 1 malonyl-CoA."));
+bankBiochem3d03t2.push(new question("What is the order of reactions in the repeated steps of fatty acid synthesis?", "Condensation, dehydrogenation, dehydration, dehydrogenation", "Condensation, reduction, hydration, reduction", "Condensation, dehydrogenation, hydration, dehydrogenation", "Condensation, reduction, dehydration, reduction", 4, "Condensation attaches malonyl-CoA to the fatty acid, then β-ketoacyl-ACP reductase reduces it, then β-hydroxyacyl-ACP dehydrase dehydrates it, then enoyl-ACP reductase reduces it."));
+bankBiochem3d03t2.push(new question("What reducing agent is used during fatty acid synthesis?", "NADH", "NADPH", "FAD", "FADH2", 2, "Reductases uses NADPH for fatty acid synthesis."));
+bankBiochem3d03t2.push(new question("What enzyme cleaves ACP from fat after fatty acid synthesis?", "Thiolase", "Thioesterase", "Transacylase", "Carboxylase", 2, "Thioesterase cleaves ACP from the fatty acid after fatty acid aynthesis?"));
+bankBiochem3d03t2.push(new question("Why are Δ12 and Δ15 fatty acids essential for our diet?", "___", "___", "We don't have Δ12 and Δ15 desaturases", "___", 3, "Mammals have Δ4, Δ5, Δ6, and Δ9 desaturases, but not Δ12 and Δ15 desaturases, so need it as part of our diet."));
+bankBiochem3d03t2.push(new question("Is hormone-sensitive lipase phosphorylated when active?", "Yes", "No", "-", "-", 1, "Hormone-sensitive lipase (HSL) is phosphorylated when active."));
+bankBiochem3d03t2.push(new question("What are covalent / hormonal activators and inactivators of hormone-sensitive lipase?", "___", "___", "___", "Activators: epinephrine, glucagon; inactivators: insulin", 4, "Activators include epinephrine and glucagon, inactivators include insulin."));
+bankBiochem3d03t2.push(new question("What are allosteric activators and inhibitors of carnitine palmitoyl transferase I?", "___", "Activators: none; inhibitors: malonyl-CoA", "___", "___", 2, "Inhibitors include malonyl-CoA."));
+bankBiochem3d03t2.push(new question("Is acetyl-CoA carboxylase phosphorylated when active?", "Yes", "No", "-", "-", 2, "Acetyl-CoA carboxylase (ACC) is dephosphorylated when active."));
+bankBiochem3d03t2.push(new question("What are allosteric activators and inhibitors of acetyl-CoA carboxylase?", "Activators: citrate; inhibitors: palmitoyl-CoA", "___", "___", "___", 1, "Activators include citrate, end-product inhibitors include palmitoyl-CoA."));
+bankBiochem3d03t2.push(new question("What are covalent / hormonal activators and inactivators of acetyl-CoA carboxylase?", "___", "Activators: insulin; inactivators: epinephrine, glucagon", "___", "___", 2, "Activators include insulin, inactivators include epinephrine and glucagon"));
+bankBiochem3d03t2.push(new question("What regulation mechanism is used by the fatty acid synthase complex?", "Covalent", "Allosteric", "Gene expression", "None", 3, "The fatty acid synthase complex is regulated through gene exprression."));
+
+//Lecture 8
+bankBiochem3d03t2.push(new question("What does it mean when the nitrogen intake is greater than the nitrogen excreted?", "Balance", "Positive balance", "Negative balance", "None of the above", 2, "Nitrogen intake greater than nitrogen excretion means a positive balance."));
+bankBiochem3d03t2.push(new question("What does it mean when the nitrogen excreted is greater than the nitrogen intake?", "Balance", "Positive balance", "Negative balance", "None of the above", 3, "Nitrogen excretion greater than nitrogen intake means a negative balance."));
+bankBiochem3d03t2.push(new question("Where do transamination and deamination occur?", "Cytosol", "Matrix", "___", "___", 1, "Transamination and deamination occur in the cytosol."));
+bankBiochem3d03t2.push(new question("Which can be metabolites of glutamate deamination?", "NAD+", "NADP+", "ɑ-ketoglutarate", "All of the above", 4, "Glutamate dehydrogenase turns glutamate into ɑ-iminoglutarate with either NAD+ or NADP+, then hydrolyzes it to produce ɑ-ketoglutarate and ammonium."));
+bankBiochem3d03t2.push(new question("What enzyme catalyzes transamination of glutamate?", "Glutamate-aspartate aminotransferase", "Glutamate-oxaloacetate aminotransferase", "Glutamate-oxaloacetate dehydrogenase", "Glutamate-aspartate dehydrogenase", 1, "Glutamate-aspartate aminotransferase turns glutamate and oxaloacetate into ɑ-ketoglutarate and aspartate."));
+bankBiochem3d03t2.push(new question("Where does the urea cycle occur?", "___", "Cytosol", "Matrix", "Both", 4, "The urea cycle starts in the matrix, then citrulline goes to the cytosol, then ornithine goes back to the matrix."));
+bankBiochem3d03t2.push(new question("What enzyme combines ammonia with bicarbonate?", "Urea synthase", "Carbamoyl phosphate synthase", "Carbamoyl phosphate synthetase", "Urea synthetase", 3, "Carbamoyl phosphate synthetase combines ammonia with bicarbonate and uses 2 ATP: one for the phosphate group and one to fuel the reaction."));
+bankBiochem3d03t2.push(new question("What energy stores are used by carbamoyl phosphate synthetase?", "GTP --> GDP", "ATP --> AMP", "ATP --> ADP", "2 ATP --> 2 ADP", 4, "2 ATP are converted to 2 ADP."));
+bankBiochem3d03t2.push(new question("Which does not contain an amino group used for urea in the urea cycle?", "Carbamoyl phosphate", "Ornithine", "Citrulline", "Aspartate", 2, "Ornithine does not carry an amino group used in the urea cycle?"));
+bankBiochem3d03t2.push(new question("Is the TCA cycle catabolic or anabolic?", "Catabolic", "Anabolic", "Both", "Neither", 3, "The TCA cycle is catabolic since it oxidizes fat, carbohydrates, and amino acids, and is also anabolic as it produces starting materials for other pathways."));
+bankBiochem3d03t2.push(new question("How is oxaloacetate synthesized from pyruvate?", "Pyruvate carboxylase", "Pyruvate dehydrogenase", "Pyruvate aminotransferase", "Pyruvate reductase", 1, "Pyruvate carboxylase catalyzes the reaction from pyruvate, bicarbonate, and ATP to oxaloacetate, ADP, and Pi."));
+bankBiochem3d03t2.push(new question("How does acetyl-CoA maintain balance with the TCA cycle?", "___", "Acetyl-CoA inhibits PDH when acetyl-CoA > oxaloacetate", "___", "___", 2, "When acetyl-CoA levels are greater than oxaloacetate levels, the excess acetyl-CoA inhibits PDH, diverting pyruvate to pyruvate carboxylase to become oxaloacetate."));
